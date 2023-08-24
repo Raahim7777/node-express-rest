@@ -1,0 +1,19 @@
+GET http://localhost:3000/students
+
+###
+POST http://localhost:3000/students
+Content-Type: application/json
+
+{
+    "id":4,
+    "name": "<sokhour>",
+    "email": "<EMAIL@gmail.com>",
+    "phone": "0987654321"
+}
+
+###
+GET http://localhost:3000/students/2
+
+
+###
+GET http://localhost:3000/products
